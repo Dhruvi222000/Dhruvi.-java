@@ -1,0 +1,8 @@
+CREATE TABLE DEPT(  
+  Deptno INT(2) NOT NULL DEFAULT 0,
+  Dname VARCHAR(14),
+  Loc VARCHAR(13),
+  PRIMARY KEY (Deptno)
+);
+
+DESC DEPT;
